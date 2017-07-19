@@ -1,4 +1,4 @@
-//Using PerformanceResourceTiming API
+//Using ResourceTiming API
 
 function load_detector(callback){
 
