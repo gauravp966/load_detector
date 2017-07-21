@@ -1,4 +1,4 @@
-/PerformanceResourceTiming API
+//PerformanceResourceTiming API
 
 function load_detector(callback){
 
@@ -24,7 +24,7 @@ function load_detector(callback){
 					}
 				}
 			
-				console.log("responseEnd: "+ resource[i].responseEnd + ". resources: " + resource);	//shoes the resources and its end time via responseEnd.											
+				console.log("responseEnd: "+ resource[i].responseEnd + ". resources: " + resource);	//shows the resources and its end time via responseEnd.											
 			}
 		 																				
 			callback.call();										//once, all the resources have responded, we call the callback function.																			
